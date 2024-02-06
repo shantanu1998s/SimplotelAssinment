@@ -2,9 +2,7 @@
     box-sizing: border-box;
   }
   
-  body {
-    margin: 0px;
-  }
+  
   
   .nav {
     height: 50px;
@@ -161,53 +159,67 @@
 
 
 .part2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    margin-top: 5px;
-    background-image: linear-gradient(to right,  #fff4ac , #ffb4ec);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to right,  #fff4ac , #ffb4ec);
 }
 
 .part2-chlid{
-    margin: auto;
-    width: 50%;
-    height: 50%;
-    display: flex;
-    justify-content: center;
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: space-evenly;
 }
+
 .part2-subChild{
-    display: flex;
-    flex-direction: column;
-    margin-right: 5px;
-    width: 50%;
-    height: 100%;
-    object-fit: cover;
+ overflow: hidden;
+ position: relative;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .part2-subChild2{
-    width: 50%;
-    height: 100%;
-    object-fit: cover;
+
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .part2-subChild img{
-    width: 100%;
-    height: 50%;
-    object-fit: cover;
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
 }
 
 .part2-subChild2 img {
-    width: 50%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 
+
+
+
+
 .part2-Child2{
-    width: 35%;
-    background-color: #ff7474;
-    margin: auto;
-    padding: 10px;
+  width: 30%;
+  background-color: #ff7474;
+  margin-right: 100px;
+  padding: 10px;
+}
+
+@media (max-width: 610px) {
+ 
+.part2-Child2{
+  width: 45%;
+  background-color: #ff7474;
+  margin: auto;
+  padding: 10px;
+}
 }

@@ -1,7 +1,8 @@
-* {
-    box-sizing: border-box;
-  }
-  
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
   
   
   .nav {
@@ -26,7 +27,7 @@
     margin-left: 150px;
     margin-right: 150px;
   }
-  .nav > .nav-links > a,img{
+  .nav-child{
     display: inline-block;
     padding: 13px 10px 13px 10px;
     text-decoration: none;
@@ -86,6 +87,11 @@
       overflow-y: auto;
     }
   }
+
+
+
+
+
 
 
   .part1{
@@ -157,49 +163,49 @@
 
 
 
-
 .part2{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
-  background-image: linear-gradient(to right,  #fff4ac , #ffb4ec);
+  margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right,  #fff4ac , #ffb4ec);
 }
 
 .part2-chlid{
-  margin: auto;
-  width: 50%;
-  height: 50%;
-  display: flex;
-  justify-content: space-evenly;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .part2-subChild{
- overflow: hidden;
- position: relative;
-  width: 50%;
-  height: 100%;
-  object-fit: cover;
+   overflow: hidden;
+   position: relative;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .part2-subChild2{
-
-  width: 50%;
-  height: 100%;
-  object-fit: cover;
+  
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .part2-subChild img{
-  width: 100%;
-  height: 50%;
-  object-fit: cover;
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
 }
 
 .part2-subChild2 img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 
@@ -208,18 +214,18 @@
 
 
 .part2-Child2{
-  width: 30%;
-  background-color: #ff7474;
-  margin-right: 100px;
-  padding: 10px;
+    width: 30%;
+    background-color: #ff7474;
+    margin-right: 100px;
+    padding: 10px;
 }
 
 @media (max-width: 610px) {
- 
-.part2-Child2{
-  width: 45%;
-  background-color: #ff7474;
-  margin: auto;
-  padding: 10px;
+   
+  .part2-Child2{
+    width: 45%;
+    background-color: #ff7474;
+    margin: auto;
+    padding: 10px;
 }
 }

@@ -175,10 +175,12 @@
     width: 50%;
     height: 50%;
     display: flex;
-    justify-content: space-evenly;
-    background-color: #efefef;
+    justify-content: center;
 }
 .part2-subChild{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
     width: 50%;
     height: 100%;
     object-fit: cover;
@@ -197,7 +199,7 @@
 }
 
 .part2-subChild2 img {
-    width: 100%;
+    width: 50%;
     height: 100%;
     object-fit: cover;
 }

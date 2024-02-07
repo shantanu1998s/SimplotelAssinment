@@ -170,7 +170,7 @@
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to right,  #fff4ac , #ffb4ec);
+    background-image: linear-gradient(to bottom right,  #fff4ac , #ffb4ec);
 }
 
 .part2-chlid{
